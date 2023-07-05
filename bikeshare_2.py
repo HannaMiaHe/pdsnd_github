@@ -64,19 +64,19 @@ def time_stats(df):
     print('-'*40)
 
 
-def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+def bikestation_stats(df):
+    """Displays statistics on the most popular bikestations and trip."""
 
-    print('\nCalculating The Most Popular Stations and Trip...\n')
+    print('\nCalculating The Most Popular Bikestations and Trip...\n')
     start_time = time.time()
 
-    # display most commonly used start station
+    # display most commonly used start bikestation
 
 
-    # display most commonly used end station
+    # display most commonly used end bikestation
 
 
-    # display most frequent combination of start station and end station trip
+    # display most frequent combination of start bikestation and end bikestation trip
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -124,7 +124,7 @@ def main():
         df = load_data(city, month, day)
 
         time_stats(df)
-        station_stats(df)
+        bikestation_stats(df)
         trip_duration_stats(df)
         user_stats(df)
 
