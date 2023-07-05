@@ -10,7 +10,9 @@ udacitiy git project / pdsnd_github
 The project is about learning and getting to know git and github. In the first step the following github reository were forked: https://github.com/udacity/pdsnd_github 
 Than the remote repository were cloned to a local machine an the bikeshare.py and data files were moved into the local repository. There are large .csv files wich were set on the gitignore list, to not push them to the github.These changes were staged and commited.
 
-A documantation branch was created.
+A documantation branch was created. 
+
+Change in the bikeshare.py file: "# Display counts of gender" --> to "# Display counts of gendertypes"
 
 ### Files used
 .gitignore
