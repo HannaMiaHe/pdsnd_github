@@ -108,7 +108,7 @@ def user_stats(df):
     # Display counts of user types
 
 
-    # Display counts of gender
+    # Display counts of gendertypes
 
 
     # Display earliest, most recent, and most common year of birth
